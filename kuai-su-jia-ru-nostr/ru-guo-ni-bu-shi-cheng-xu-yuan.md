@@ -3,18 +3,39 @@
 ## 选择你喜欢的客户端
 
 ### Web
-[Iris](iris.to)(Web)
-### IOS
-[Damus](https://damus.io/)(IOS)
-### Android
-[Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst&pli=1)
 
+[Iris](iris.to)(Web)
+
+### IOS
+
+[Damus](https://damus.io/)(IOS)
+
+### Android
+
+[Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst\&pli=1)
 
 ## 创建你的账号
 
+所有的Nostr账号背后都跟随同一个原理，密钥对。
+
+公钥公开在每次发布的消息里，私钥则由自己保存。
+
+公钥可以由私钥计算出，反之则无法做到。
+
+当你第一次进入到上述客户端，选择创建账号时，该页面会为你生成一个公私钥对。
+
+你可以把私钥放入其他插件保存，如Alby/nostr2x。
+
+每次发布消息时，被发布的消息会由你的私钥签名。其他人使用公钥验证这个签名和内容本身的哈希值来确认内容确实由你的账号所发出。
+
 ## 保存好私钥（重要！！！）
 
-不论你去到任何一个APP，私钥都是你唯一的身份认证。 如果你丢失了你的私钥，那么你将无法再使用这个身份发布任何信息。当然你也可以随时轻松创建一个新的私钥继续开始你的Nostr之旅。
+不论你去到任何一个客户端，私钥都是你唯一的身份认证。 如果你丢失了你的私钥，那么你将无法再使用这个身份发布任何信息。当然你也可以随时轻松创建一个新的私钥继续开始你的Nostr之旅。
+
+### 我可以更换客户端吗？
+
+当然可以，这就是Nostr的迷人之处！
+
+你可以无缝切换各类客户端，同时不会损失你之前的数据、关注列表和粉丝。
 
 ##
-
